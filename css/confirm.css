@@ -1,0 +1,11 @@
+h1,h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: forestgreen;
+    text-shadow: 2cm;
+}
+a:link {
+    text-align: center;
+    color: forestgreen;
+    font-family: 'Courier New', Courier, monospace;
+}

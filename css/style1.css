@@ -1,0 +1,9 @@
+div.form-container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    padding-bottom: 60px;
+    background: #eee;
+    align-items: center;
+}

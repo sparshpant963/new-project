@@ -1,0 +1,81 @@
+div.form-container {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+    padding-bottom: 60px;
+    background: #eee;
+    align-items: center;
+}
+
+.form-container .label {
+    font-size: xx-large ;
+    text-align: center;
+}
+
+.form-container input{
+    border: none;
+}
+
+.form-container a {
+    text-decoration: none;
+}
+.form-container form{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+    background: #ffff;
+    text-align: center;
+}
+.form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-container form input{
+    width: 100%;
+    padding: 10px 6px;
+    font-size: 20px;
+    margin: 6px 0;
+    background: #eee;
+}
+.form-container form select{
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 20px;
+    margin: 8px 0;
+    background: #eee;
+}
+.form-container form select option{
+background: #ffff;
+}
+.form-container form .form-btn{
+    background: #fbd0b9;
+    color: rgb(42, 183, 42);
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}   
+.form-container form .form-btn:hover{
+    background: crimson;
+    color: #fbd0b9;
+    font-size: 30px;
+}
+.form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+.form-container form p a{
+    color: rgb(50, 50, 194);
+}
+.form-container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background-color: crimson;
+    color: #ffff;
+    border-radius: 5px;
+    font-size: 20px;
+}
