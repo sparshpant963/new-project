@@ -50,7 +50,7 @@ else{
                 };
             };
             ?>
-            <input type="text" name="email" required placeholder="Enter Your E-Mail" autocomplete="off">
+            <input type="text" name="email" required placeholder="Enter Your E-Mail Address" autocomplete="off">
             <input type="password" name="Password" required placeholder="Enter Your Password">
             <input type="submit"name="submit" value="Login" class="form-btn">
             <p>Don't have an Account? <a href="register_form.php">Register now</a></p>
